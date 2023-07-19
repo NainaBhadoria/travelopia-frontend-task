@@ -1,0 +1,26 @@
+Overview of the task:
+
+1. I have designed a full-page, full-width, full-height component, which works on all screen sizes. 
+
+2. The header is fully responsive and consists of menu items with dummy links. I have added the transition effects on hover 
+of these menu items. In mobile the hamburger icon has been added. When we click on the hamburger icon the sliding menu will be displayed 
+along with some transition effect.
+
+3. After the header, image (width-1920px height-1080px) has been inserted through html code which covers all the white spaces. The image is
+fully responsive. Different image has been used for different screen sizes (IPad and mobile) to optimize the page to get better performance.
+
+4. A translucent overlay has been inserted above the image. A title and a button which says Click here has been displayed in the center of
+the page. I have given the transition effect to the button also. 
+
+5. When we click on the button an alert is being displayed which reads Hello World!.
+
+6. At last we can see the footer of the page. 
+
+
+Note for the Code:
+
+I have tried my best to use the minimal HTML, CSS and Javascript code to shorten the DOM size and also for optimization purpose for better 
+performance of the page. 
+
+Thankyou.
+
