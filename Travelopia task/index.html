@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>travel website</title>
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header">
+      <a href="#default" class="logo header-left nav-menu">Travelopia</a>
+      <div class="menu-bar"> <span>&nbsp;</span> <span>&nbsp;</span> <span>&nbsp;</span>
+      </div>
+      <div class="mobile-menu">
+        <i class="icon_close">&nbsp;</i>
+      <div class="header-right">
+        <a class="nav-menu" href="https://www.w3.org/Provider/Style/dummy.html">Home</a>
+        <a class="nav-menu" href="https://www.w3.org/Provider/Style/dummy.html">Contact</a>
+        <a class="nav-menu" href="https://www.w3.org/Provider/Style/dummy.html">About</a>
+        <a class="nav-menu" href="https://www.w3.org/Provider/Style/dummy.html">Resources</a>
+        <a class="nav-menu" href="https://www.w3.org/Provider/Style/dummy.html">Our Brands</a>
+      </div>
+    </div>
+    </div>
+  </header>
+  <main class="main-section">
+    <div class="container">
+      <section class="image-overlay">
+        <picture>
+          <source media="(max-width: 767px)" srcset="images/travel-image-mobile.jpg" />
+          <source media="(min-width: 768px) and (max-width: 1024px)" srcset="images/travel-image-ipad.jpg" />
+          <source media="(min-width: 1025px)" srcset="images/travel-image.jpg" />
+          <img class="modal-img" src="images/travel-image.jpg" alt="alter image" width="1920" height="1080" style="aspect-ratio: 1920/1080" />
+        </picture>
+        <h1 class="h1 center-align">Hello Travelopia</h1>
+        <button id="myBtn" class="open-modal-btn center-align">click me</button>
+      </section>
+    </div>
+
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p class="modal-text">Hello world!</p>
+    </div>
+  </div>
+</main>
+<footer class="footer-wrap">
+<div class="footer-section">
+  <p>© 2023, travelopia Limited. All rights reserved.</p>
+</div>
+</footer>
+  <script src="script.js"></script>
+</body>
+</html>
